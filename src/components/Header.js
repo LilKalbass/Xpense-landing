@@ -20,7 +20,7 @@ const Header = () => {
       <header className = {`${isActive ? 'lg:top-0 bg-white shadow-md lg:shadow-2xl' : 'lg:top-[40px]'} 
       py-4 lg:py-3.5 fixed w-full rounded-b-full z-10 transition-all`}>
         <div className = "container mx-auto flex justify-between items-center">
-          <a href= "#"
+          <a href= ""
              data-aos = "fade-down-right" data-aos-delay = "1000">
             <img src = {logo} alt = "logo_img"/>
           </a>

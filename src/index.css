@@ -56,4 +56,6 @@
   .btn-link {
     @apply text-accent text-xl lg:text-2xl;
   }
+  .round {
+    @apply rounded-bl-full rounded-tr-full rounded-br-[1800px] rounded-tl-[250px] lg:rounded-none}
 }
