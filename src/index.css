@@ -21,11 +21,10 @@
   .h2 {
     @apply text-5xl lg:text-7xl font-bold;
   }
-  .pretitle {
-    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
-  }
+  .preTitle {
+    @apply text-lg lg:text-[22px] text-black mb-4 lg:mb-6 uppercase font-medium}
   .lead {
-    @apply text-2xl text-light font-normal mb-6;
+    @apply text-xl lg:text-2xl text-light font-normal mb-6;
   }
   .link {
     @apply text-lg text-dark;
