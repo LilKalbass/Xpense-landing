@@ -41,6 +41,7 @@ export const nav = [
 ];
 
 export const hero = {
+
   title: 'Track your Expenses to Save Money',
   subtitle: 'Helps you to organize your income and expenses',
   btnText: 'Try free demo',

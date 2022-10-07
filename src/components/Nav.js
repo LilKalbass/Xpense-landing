@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll'
 import {nav} from "../data";
 
 const Nav = () => {
@@ -8,7 +9,9 @@ const Nav = () => {
           {nav.map((item, index) => {
             return (
                 <li key = {index}>
-                  <a className = "hover:text-accent transition" href = {item.href}>{item.name}</a>
+                  <Link to = {item.idTO} className = "transition hover:text-accent" href = {item.href}>
+                      {item.name}
+                  </Link>
                 </li>
             );
           })}

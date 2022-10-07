@@ -11,14 +11,14 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
+      window.scrollY > 70 ? setIsActive(true) : setIsActive(false);
     });
   });
 
   const {logo, btnText} = header;
   return (
-      <header className = {`${isActive ? 'lg:top-0 bg-white shadow-xl' : 'lg:top-[40px]'} 
-      py-6 lg:py-3.5 fixed w-full rounded-b-md z-10 transition-all`}>
+      <header className = {`${isActive ? 'lg:top-0 bg-white shadow-md lg:shadow-2xl' : 'lg:top-[40px]'} 
+      py-4 lg:py-3.5 fixed w-full rounded-b-full z-10 transition-all`}>
         <div className = "container mx-auto flex justify-between items-center">
           <a href= "#"
              data-aos = "fade-down-right" data-aos-delay = "1000">
@@ -31,15 +31,16 @@ const Header = () => {
           <button className = "btn btn-sm btn-outline hidden lg:flex"
                   data-aos = "fade-down-left" data-aos-delay = "1000">{btnText}
           </button>
-          <button className = "lg:hidden" onClick={() => setMobileNav(!mobileNav)}
-                  data-aos = "fade-down-left" data-aos-delay = "1000">
-            {mobileNav ? (<HiOutlineX className = "text-3xl text-accent"/>) :
-                (<HiMenuAlt4 className = "text-3xl text-accent"/>)}
-          </button>
           <div className = {`${mobileNav ? "left-0" : "-left-full"}
-             fixed top-0 bottom-0 w-[60%] sm:hidden transition-all`} >
+             fixed top-0 bottom-0 w-[100%] sm:hidden transition-all`} >
             <NavMobile/>
           </div>
+
+          <button className = "lg:hidden" onClick={() => setMobileNav(!mobileNav)}
+                  data-aos = "fade-down-left" data-aos-delay = "1000">
+            {mobileNav ? (<HiOutlineX className = "text-3xl text-black"/>) :
+                (<HiMenuAlt4 className = "text-3xl text-accent"/>)}
+          </button>
         </div>
       </header>
   );
