@@ -7,7 +7,7 @@ const Feature2 = () => {
         <div className = "container mx-auto">
           <div className = "flex flex-col lg:flex-row lg:items-center lg:gap-x-20 gap-y-12">
             <div className = "flex-1 order-2 lg:order-1"
-                 data-aos = "fade-down-right" data-aos-offset = "250">
+                 data-aos = "fade-down-right" data-aos-offset = "100">
               <img src = {features.feature2.image} alt = "features_img"/>
             </div>
             <div className = "flex-1 order-1 lg:order-2"
