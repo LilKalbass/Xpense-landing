@@ -150,6 +150,7 @@ export const pricing = {
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
         { name: 'Cloud server support' },
+        { name: "At least not the starter one'" },
       ],
       price: '$19.99',
       userAmount: 'up to 3 user + 1.99 per user',
@@ -163,6 +164,7 @@ export const pricing = {
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
         { name: 'Cloud server support' },
+        { name: "Diamond also sound 'cool'" },
       ],
       price: '$29.99',
       userAmount: 'up to 3 user + 1.99 per user',
@@ -172,7 +174,7 @@ export const pricing = {
   ],
 };
 
-export const testimonials = {
+export const feedbacks = {
   title: 'We have millions of best wishers',
   clients: [
     {
@@ -201,14 +203,14 @@ export const testimonials = {
       image: AvatarImg4,
       name: 'Aubrey Sanford',
       position: 'CEO',
-      borderColor: '#3EC1F3',
+      borderColor: '#A032EAFF',
     },
     {
       message: 'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg5,
       name: 'Terri Conroy',
       position: 'CEO',
-      borderColor: '#BB7259',
+      borderColor: '#3EC1F3',
     },
   ],
 };

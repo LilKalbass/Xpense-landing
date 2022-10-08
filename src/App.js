@@ -12,7 +12,7 @@ import Feature2 from './components/Feature2';
 import Feature3 from './components/Feature3';
 import Product from './components/Product';
 import Pricing from './components/Pricing';
-import Testimonials from './components/Testimonials';
+import Feedback from './components/Feedback';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
 
@@ -32,7 +32,7 @@ const App = () => {
       <Feature3 />
       <Product />
       <Pricing />
-      <Testimonials />
+      <Feedback />
       <Cta />
       <Footer />
        <div className='h-[4000px]'></div>
