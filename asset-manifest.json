@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Xpense-landing/static/css/main.c50b8f26.css",
+    "main.js": "/Xpense-landing/static/js/main.3898aed5.js",
+    "static/media/product.svg": "/Xpense-landing/static/media/product.1aceb347e1ff8afef062575ab5e0b9c8.svg",
+    "static/media/feature2-img.svg": "/Xpense-landing/static/media/feature2-img.d8df1be911a997db5e2306c31fdbca08.svg",
+    "static/media/image.svg": "/Xpense-landing/static/media/image.4d2bf29a8ff48212669ab52d3485cef2.svg",
+    "static/media/feature1-img.svg": "/Xpense-landing/static/media/feature1-img.3b04c6e787c085d9be68eaad5e82d1dc.svg",
+    "static/media/feature3-img.svg": "/Xpense-landing/static/media/feature3-img.553e26ae86a0e05e520f069984285585.svg",
+    "static/media/image2.svg": "/Xpense-landing/static/media/image2.3a18d7d1481447951e872032f57ae887.svg",
+    "static/media/image1.svg": "/Xpense-landing/static/media/image1.98d1d51a4955378a7f5b1b419a21c232.svg",
+    "static/media/coca-cola.svg": "/Xpense-landing/static/media/coca-cola.73db672d44dc0dd689ac8a88fc144b43.svg",
+    "static/media/logo.svg": "/Xpense-landing/static/media/logo.a35341562c2ceffdb7f4be13adf1ad3f.svg",
+    "static/media/facebook.svg": "/Xpense-landing/static/media/facebook.aa1017ffbd23ea354ec79681486ba96f.svg",
+    "static/media/linkedin.svg": "/Xpense-landing/static/media/linkedin.13f450e3064f38b7f627849926292467.svg",
+    "static/media/google.svg": "/Xpense-landing/static/media/google.72195540ef0ba8b9ad7b874a457559e2.svg",
+    "static/media/bg.svg": "/Xpense-landing/static/media/bg.7d75a99c4f24b0aac1c8.svg",
+    "static/media/samsung.svg": "/Xpense-landing/static/media/samsung.7e1c4123c1b1ee9b1390c34b2508ad8d.svg",
+    "static/media/twitter.svg": "/Xpense-landing/static/media/twitter.6bcf67328c01dd5ba4aab0e76150cfba.svg",
+    "static/media/icon2.svg": "/Xpense-landing/static/media/icon2.5f1c04a8e1771e7083d317607dbeb707.svg",
+    "index.html": "/Xpense-landing/index.html",
+    "static/media/icon3.svg": "/Xpense-landing/static/media/icon3.cdbaf37c76f1036a3cc36d4b33ecd3a2.svg",
+    "static/media/icon1.svg": "/Xpense-landing/static/media/icon1.11c6eea38b3a936985faa2bace8968eb.svg",
+    "static/media/arrow-right.svg": "/Xpense-landing/static/media/arrow-right.f4e18ac972d55636860ca375411680c0.svg",
+    "static/media/arrow.svg": "/Xpense-landing/static/media/arrow.2ede6e714c19d92912720324264bed9b.svg",
+    "main.c50b8f26.css.map": "/Xpense-landing/static/css/main.c50b8f26.css.map",
+    "main.3898aed5.js.map": "/Xpense-landing/static/js/main.3898aed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c50b8f26.css",
+    "static/js/main.3898aed5.js"
+  ]
+}
