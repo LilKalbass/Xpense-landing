@@ -13,7 +13,7 @@ import Feature3 from './components/Feature3';
 import Product from './components/Product';
 import Pricing from './components/Pricing';
 import Feedback from './components/Feedback';
-import Cta from './components/Cta';
+import Stats from './components/Stats';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -33,9 +33,8 @@ const App = () => {
       <Product />
       <Pricing />
       <Feedback />
-      <Cta />
+      <Stats />
       <Footer />
-       <div className='h-[4000px]'></div>
     </div>
   );
 };

@@ -27,7 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         overview: "url('/src/assets/img/overview/bg.svg')",
-        cta: "url('/src/assets/img/cta/bg.svg')",
+        stat: "url('/src/assets/img/cta/bg.svg')",
       },
     },
   },

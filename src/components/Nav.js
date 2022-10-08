@@ -9,9 +9,7 @@ const Nav = () => {
           {nav.map((item, index) => {
             return (
                 <li key = {index}>
-                  <Link to = {item.idTO} className = "transition hover:text-accent" href = {item.href}>
-                      {item.name}
-                  </Link>
+                  <Link to = {item.idTO} className = "transition hover:text-accent" href = {item.href}>{item.name}</Link>
                 </li>
             );
           })}

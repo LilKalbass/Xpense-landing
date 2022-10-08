@@ -4,11 +4,11 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css'
 import 'swiper/css/navigation';
 import '../slider.css'
+import {feedbacks} from "../data";
 
 const ClientSlider = ({clients}) => {
   return (
       <Swiper
-
           slidesPerView={1}
           spaceBetween={30}
           navigation
@@ -36,7 +36,7 @@ const ClientSlider = ({clients}) => {
       >
         {clients.map((client, index) => {
           return (
-              <SwiperSlide key = {index} className = "md:border-t-[100px] ph:border-t-[50px] md:rounded-full ph:rounded-tr-[75%] border-accent" style={{borderColor: client.borderColor}}>
+              <SwiperSlide key = {index} className = "md:border-t-[100px] ph:border-t-[50px] md:rounded-full ph:rounded-tr-[77%] border-accent" style={{borderColor: client.borderColor}}>
                   <div className = "mx-auto w-full h-[250px] lg:max-w-[380px] py-10 px-12 ph:mr">
                       <div className = "pb-3 text-center">{client.message}</div>
                       <div className = "flex gap-x-2 justify-center items-center ">

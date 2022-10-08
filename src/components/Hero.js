@@ -6,7 +6,7 @@ import {HiOutlineChevronDown} from 'react-icons/hi';
 const Hero = () => {
   const {title, subtitle, btnText, compText, image} = hero;
   return (
-      <section className = "min-h-[900px] py-12">
+      <section id = "_home" className = "min-h-[900px] py-12">
           <div className = "container mx-auto flex justify-center items-center min-h-[900px]">
               <div className = "flex justify-center items-center text-center flex-col gap-y-8 lg:gap-y-0 lg:gap-x-8 lg:flex-row lg:text-left">
                   {/*    text   */}

@@ -215,7 +215,7 @@ export const feedbacks = {
   ],
 };
 
-export const cta = {
+export const stats = {
   title: '20M+ downloaded from 32 different countries',
   subtitle: 'Try demo for 7 days with full features.',
   btnText: 'Try free demo',
@@ -253,16 +253,16 @@ export const footer = {
 export const copyright = {
   link1: {
     name: 'Privacy & Terms',
-    href: '/',
+    href: '#',
   },
   link2: {
     name: 'Contact us',
-    href: '/',
+    href: '',
   },
   copyText: 'Copyright @ 2022 xpence',
   social: [
-    { icon: FacebookIcon, href: '/https://www.facebook.com' },
-    { icon: TwitterIcon, href: '/https://twitter.com' },
-    { icon: LinkedinIcon, href: '/https://www.linkedin.com' },
+    { icon: FacebookIcon, href: 'https://www.facebook.com/' },
+    { icon: TwitterIcon, href: 'https://twitter.com/' },
+    { icon: LinkedinIcon, href: 'https://www.linkedin.com/' },
   ],
 };
