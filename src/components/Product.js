@@ -4,7 +4,7 @@ import {product} from '../data';
 
 const Product = () => {
   return(
-      <section className = "section">
+      <section id = "_about" className = "section">
         <div className = "container mx-auto">
           <div className= "flex flex-col lg:flex-row items-center mb-10 lg:mb-20">
             <h2 className = "text-6xl lg:text-8xl mb-6 font-bold" data-aos = "fade-up" data-aos-delay = "300">{product.title}</h2>

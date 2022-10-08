@@ -12,8 +12,8 @@ const Cards = () => {
             return (
                 <div key = {cardIndex} data-aos = "zoom-out-down" data-aos-delay = {card.delay}>
                   <div onClick={() => setIndex(cardIndex)}
-                       className = {`${index === cardIndex && "bg-accent hover:drop-shadow-xl hover:lg:drop-shadow-2xl"}
-                                   w-[350px] h-[375px] shadow-md lg:shadow-2xl flex flex-col justify-center items-center
+                       className = {`${index === cardIndex && "bg-accent hover:drop-shadow-2xl"}
+                                   w-[350px] h-[375px] shadow-xl lg:shadow-2xl flex flex-col justify-center items-center
                                    mx-auto p-16 text-center rounded-2xl cursor-pointer transition-all`}>
                     <div>
                       <img className = "mb-6" src = {card.icon} alt = "product_img"/>
